@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(242, 242, 242);
+    position: fixed;
+}
+.thread-left{
+    height: 100vh;
+    width: 5vw;
+
+    position: fixed;
+}
+.icon1 i{
+    font-size: 32px;
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    transition: .5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.icon2{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 20vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(221, 221, 221);
+}
+}
+.icon2 i{
+font-size: 23px;
+margin-left: 14px;
+margin-top: 8px;
+}
+.icon3{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 30vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(232, 232, 232);
+}
+}
+.icon3 i{
+font-size: 23px;
+margin-left: 14px;
+margin-top: 8px;
+}
+.icon4{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 40vh;
+left: 1.3vw;
+
+    background-color: rgb(232, 232, 232);
+
+}
+.icon4 i{
+font-size: 23px;
+margin-left: 18px;
+margin-top: 9px;
+}
+.icon5{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 50vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(232, 232, 232);
+}
+}
+.icon5 i{
+font-size: 23px;
+margin-left: 15px;
+margin-top: 9px;
+}
+.icon6{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 60vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(232, 232, 232);
+}
+}
+.icon6 i{
+font-size: 23px;
+margin-left: 17px;
+margin-top: 9px;
+}
+.icon7{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 84vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(232, 232, 232);
+}
+}
+.icon7 i{
+font-size: 24px;
+margin-left: 19px;
+margin-top: 9px;
+}
+.icon8{
+    height: 6vh;
+    width: 3.5vw;
+    border-radius: 10px;
+position: absolute;
+top: 92vh;
+left: 1.3vw;
+&:hover{
+    background-color: rgb(232, 232, 232);
+}
+}
+.icon8 i{
+font-size: 24px;
+margin-left: 19px;
+margin-top: 9px;
+}
+.thread-right{
+    height: 100vh;
+    width: 93vw;
+    position: relative;
+    left: 5vw;
+}
+.home{
+    font-family: "poppins";
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 2vh;
+    left: 40vw;
+    
+}
+.log{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    width: 5vw;
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+.container{
+    height: 95vh;
+    width: 40vw;
+    background-color: white;
+    position: fixed;
+    top: 6vh;
+    left: 26.5vw;
+    border-radius: 14px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input{
+    width: 38vw;
+    height: 6vh;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 15px;
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    padding-left: 55px;
+    font-family: "poppins";
+    font-size: 15px;
+    outline: none;
+}
+.container i{
+    font-size: 16px;
+    position: absolute;
+    top: 3.9vh;
+    left: 3vw;
+}

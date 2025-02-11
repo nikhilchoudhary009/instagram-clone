@@ -1,0 +1,1802 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+.start{
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+.first{
+    height: 60vh;
+    width: 22vw;
+    border: 1px solid rgb(204, 204, 204);
+    position: absolute;
+    top: 8vh;
+    right: 24vw;
+}
+.first h1{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 45px;
+    position: absolute;
+    top: 5vh;
+    left: 4.9vw;
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+}
+input[type="text"]{
+background-color: rgb(240, 240, 240);
+height: 3.5vh;
+width: 16vw;
+border: 1px solid lightgrey;
+border-radius: 5px;
+padding: 6px;
+position: absolute;
+left: 2.9vw;
+top: 18vh;
+}
+input[type="password"]{
+    background-color: rgb(240, 240, 240);
+    height: 3.5vh;
+    width: 16vw;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 6px;
+    position: absolute;
+    left: 2.9vw;
+    top: 25vh;
+    }
+.first button{
+    height: 4vh;
+    width: 17vw;
+    padding: 4px;
+    border: none;
+    background-color: rgb(72, 199, 242);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    position: absolute;
+    left: 2.9vw;
+    top: 32vh;
+}
+.first .empty{
+    height: 0.5px;
+    width: 7vw;
+    background-color: lightgray;
+    position: absolute;
+    top: 40vh;
+    left: 3vw;
+}
+.first .empty2{
+    height: 0.5px;
+    width: 7vw;
+    background-color: lightgray;
+    position: absolute;
+    top: 40vh;
+    right: 2.4vw;
+}
+.first p{
+    font-size: 12px;
+    color: rgb(86, 86, 86);
+    position: absolute;
+    top: 39vh;
+    left: 10.8vw;
+}
+.first .non a{
+    text-decoration: none;
+    color: #354ad4;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 46vh;
+    left: 7.5vw;
+}
+.first a{
+    position: absolute;
+    top: 46vh;
+    left: 5.5vw;
+}
+.first a i{
+    font-size: 25px;
+}
+.first .p1{
+    position: absolute;
+    top: 53vh;
+    left: 8.7vw;
+    font-family: Californian FB;
+    color: rgb(1, 1, 71);
+    font-weight: 400;
+    cursor: pointer;
+}
+.start .image{
+    height: auto;
+    width: auto;
+}
+.start .image .body{
+    height: 90vh;
+    width: 29vw;
+    position: absolute;
+    left: 17vw;
+    top: 2vh;
+}
+.start .image .img1{
+    height: 77vh;
+    width: 18vw;
+    position: absolute;
+    left: 23.8vw;
+    top: 10vh;
+}
+.start .image .body2{
+    height: 90vh;
+    width: 29vw;
+    position: absolute;
+    left: 25vw;
+    top: 4vh;
+}
+
+.start .image .img2{
+    height: 76.5vh;
+    width: 18vw;
+    position: absolute;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    left: 31.8vw;
+    background-image: url(../images/screenshot1.png);
+    background-size: cover;
+    top: 12vh;
+    animation-name: img2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes img2{
+    0%{
+        background-image: url(../images/screenshot1.png);
+    }
+    25%{
+        background-image: url(../images/screenshot2.png);
+    }
+    50%{
+        background-image: url(../images/screenshot3.png);
+    }
+    100%{
+        background-image: url(../images/screenshot4.png);
+    }
+    
+}
+.start .second{
+    height: 10vh;
+    width: 22vw;
+    border: 1px solid rgb(204, 204, 204);
+    position: absolute;
+    border-radius: 1px;
+    top: 70vh;
+    right: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.second p{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.second a{
+    color:  rgb(9, 158, 207);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.start .play{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 81vh;
+    right: 25.5vw;
+    
+}
+.play p{
+    text-align: center;
+    font-family: Californian FB; 
+    margin-top: 2vh;
+}
+.play img{
+height: 6vh;
+width: 9vw;
+margin-top: 2vh;
+margin-left: 5px;
+}
+
+
+/* FACEBOOK LOGIN PAGE START */
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+.allface{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+.brandn{
+    height: 12vh;
+    width: auto;
+    background-color: #365899;
+    position: relative;
+}
+.brandn h1{
+    font-size: 46px;
+    color: white;
+    position: absolute;
+    bottom: 1vh;
+    left: 19vw;
+    cursor: pointer;
+}
+.brandn .cr{
+    height: 3.2vh;
+    width: 8vw;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 700;
+    background-color: rgb(66, 226, 66);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: 2.2vh;
+    left: 31.5vw;
+
+    &:hover{
+        background-color: rgb(0, 158, 0);
+        cursor: pointer;
+    }
+}
+
+.allface .greyone{
+    height: 67vh;
+    width: 100%;
+    position: absolute;
+    background-color: #e9ebee;
+    top: 12vh;
+}
+.allface .greyone .whiteone{
+    height: 42vh;
+    width: 40vw;
+    background-color: white;
+    position: absolute;
+    top: 12vh;
+    left: 30vw;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+}
+.greyone .whiteone .log{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    left: 15vw;
+    top: 5vh;
+}
+.whiteone input[type="text"]{
+    height: 2.6vh;
+    width: 20vw;
+    border-radius: 0%;
+    position: absolute;
+    top: 12vh;
+    left: 10vw;
+    background-color: rgb(248, 248, 248);
+}
+.whiteone input[type="password"]{
+    height: 2.6vh;
+    width: 20vw;
+    border-radius: 0%;
+    position: absolute;
+    top: 19vh;
+    left: 10vw;
+    background-color: rgb(248, 248, 248);
+}
+.whiteone .blueone{
+    height: 6.5vh;
+    width: 21vw;
+    border-radius: 0%;
+    position: absolute;
+    top: 26vh;
+    left: 10vw;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #365899;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover{
+        background-color: #243e6d;
+    }
+}
+.whiteone .ankr1{
+    color: #2e4b81;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: 6vh;
+    left: 13vw;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.whiteone .ankr2{
+    color: #2e4b81;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: 6vh;
+    right: 11vw;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.whiteone .ankr3{
+    color: #2e4b81;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 2.7vh;
+    right: 17.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.allface .lastone{
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 82vh;
+}
+.lastone .lang{
+    color:grey;
+    font-size: 13px;
+    position: absolute;
+    top: 28vh;
+    left: 17vw;
+    word-spacing: 3px;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.lastone .khali{
+    height: 0.5px;
+    width: 70vw;
+    background-color: grey;
+    position: absolute;
+    top: 32vh;
+    left: 17vw;
+    border: none;
+    outline: none;
+    
+}
+.lastone .lang2{
+    color:grey;
+    font-size: 13px;
+    position: absolute;
+    top: 33vh;
+    left: 17vw;
+    word-spacing: 6px;
+    line-height: 3vh;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.lastone .lang3{
+    color:grey;
+    font-size: 14px;
+    position: absolute;
+    top: 44vh;
+    left: 17vw;
+    word-spacing: 3px;
+}
+
+
+/* forgotten password */
+
+.forone{
+    height: 115vh;
+    width: auto;
+    position: relative;
+}
+.forone h1{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    position: absolute;
+    left: 21vw;
+    top: 3vh;
+}
+.forone .none{
+    height: 0.5px;
+    width: auto;
+    background-color: lightgrey;
+    outline: none;
+    border: none;
+    position: relative;
+    top: 9vh;
+}
+.forone .troublepage{
+    height: 80vh;
+    width: 26vw;
+    border: 1px solid lightgrey;
+    position: absolute;
+    top: 15vh;
+    left: 37vw;
+    border-radius: 5px;
+}
+.forone .troublepage .circle1{
+    height: 15vh;
+    width: 7vw;
+    border: 2px solid black;
+    position: absolute;
+    left: 9.5vw;
+    top: 3vh;
+    border-radius: 50%;
+}
+.forone .troublepage .circle1 i{
+    position: absolute;
+    left: 1.99vw;
+    font-size: 55px;
+    top: 3.5vh;
+}
+.forone .troublepage .dikkat{
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    top: 21vh;
+    left: 8.5vw;
+
+}
+.forone .troublepage .dikkat2{
+    font-size: 16px;
+    color: lightslategray;
+    position: absolute;
+    top: 25vh;
+    left: 3.3vw;
+}
+.forone .troublepage input[type="email"]{
+    height: 3.5vh;
+    width: 19vw;
+    padding: 8px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 7px;
+    position: absolute;
+    top: 32vh;
+    left: 3vw;
+}
+.forone .troublepage .loginlink{
+    height: 4.5vh;
+    width: 20vw;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(190, 223, 255);
+    border-radius: 9px;
+    position: absolute;
+    top: 40.5vh;
+    left: 3.2vw;
+    border: none;
+    outline: none;
+    opacity: 80%;
+}
+.forone .troublepage .cant{
+    color: rgb(0, 55, 107);
+    font-size: 13px;
+    word-spacing: 3px;
+    position: absolute;
+    top: 46.5vh;
+    left: 8.5vw;
+    cursor: pointer;
+}
+.forone .troublepage .none1{
+    height: 0.5px;
+    width: 8vw;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    position: absolute;
+    top: 55vh;
+    left: 3.2vw;
+}
+.forone .troublepage .something2{
+    height: 0.5px;
+    width: 8vw;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    position: absolute;
+    top: 55vh;
+    right: 3.2vw;
+}
+.forone .troublepage .orone{
+    position: absolute;
+    top: 53.8vh;
+    right: 12.3vw;
+    font-size: 14px;
+    color: lightslategrey;
+}
+.forone .troublepage .createnew{
+    font-size: 14px;
+    position: absolute;
+    top: 58vh;
+    left: 8.7vw;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    &:hover{
+        color: lightslategray;
+        cursor: pointer;
+    }
+}
+.forone .troublepage .backto{
+    height: 6vh;
+    width: 25.95vw;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 74vh;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.forone .troublepage .backtologin{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1.3vh;
+    font-size: 13.5px;
+    font-weight: 500;
+    &:hover{
+        color: lightslategray;
+        cursor: pointer;
+    }
+}
+.forone .endingone{
+    position: absolute;
+    top: 102vh;
+    left: 22vw;
+    color: rgb(91, 91, 91);
+    font-size: 12px;
+    word-spacing: 10px;
+}
+.forone .metaone{
+    position: absolute;
+    top: 107vh;
+    left: 42vw;
+    color: rgb(91, 91, 91);
+    font-size: 12px;
+    word-spacing: 10px;
+}
+
+/* SIGN UP PAGE */
+
+.startsign{
+    height: 88vh;
+    width: 23vw;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 2vh;
+    left: 38vw;
+}
+.startsign .startlogo{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 500;
+    font-size: 47px;
+    position: absolute;
+    left: 5.5vw;
+    top: 5vh;
+    color: rgb(28, 24, 24);
+}
+.startsign .friends{
+    font-size: 17px;
+    position: absolute;
+    font-weight: 500;
+    top: 15vh;
+    left: 3vw;
+    color: rgb(92, 102, 112);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.startsign .sameface{
+    height: 5vh;
+    width: 18vw;
+    background-color: rgb( 0, 149, 249);
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    position: absolute;
+    left: 3vw;
+    top: 24vh;
+    &:hover{
+        background-color:  rgb(3, 129, 214);
+    }
+
+}
+audio{
+    height: 1vh;
+    width: 1vh;
+    background-color: white;
+    color: white;
+}
+.startsign .sameface .faccc{
+    height: 2.5vh;
+    width: 1.2vw;
+    position: absolute;
+    top: 9px;
+    left: 4vw;
+    background-color: white;
+}
+.startsign .sameface .faccc p{
+    font-size: 23px;
+    color: rgb( 0, 149, 249);
+    font-weight: 550;
+}
+.startsign .sameface .newp{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    left: 5.5vw;
+    top: 1vh;
+    &:hover{
+        text-shadow: 2px 3px 3px black;
+        cursor: pointer;
+    }
+}
+.startsign .kuchnhi{
+    height: 0.5px;
+    width: 7vw;
+    background-color: rgb(201, 213, 225);
+    position: absolute;
+    top: 33vh;
+    left: 3.5vw;
+}
+.startsign .kuchnhi1{
+    height: 0.5px;
+    width: 7vw;
+    background-color: rgb(201, 213, 225);
+    position: absolute;
+    top: 33vh;
+    right: 2.6vw;
+}
+.startsign .outlinee{
+    position: absolute;
+    top: 32vh;
+    right: 10.6vw;
+    font-size: 15px;
+    color: lightslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.startsign .input1 input[type="text"]{
+    height: 3vh;
+    width: 17vw;
+    position: absolute;
+    top:36vh;
+    left: 3vw;
+    border-radius: 4px;
+    padding: 8px;
+}
+.startsign .input2 input[type="password"]{
+    height: 3vh;
+    width: 17vw;
+    position: absolute;
+    top:43vh;
+    left: 3vw;
+    border-radius: 4px;
+    padding: 8px;
+}
+.startsign .input3 input[type="text"]{
+    height: 3vh;
+    width: 17vw;
+    position: absolute;
+    top:50vh;
+    left: 3vw;
+    border-radius: 4px;
+    padding: 8px;
+}
+.startsign .input4 input[type="text"]{
+    height: 3vh;
+    width: 17vw;
+    position: absolute;
+    top:57vh;
+    left: 3vw;
+    border-radius: 4px;
+    padding: 8px;
+}
+.startsign .learnmore{
+    position: absolute;
+    top:64vh;
+    left: 3.3vw;
+    font-size: 14px;
+    color: lightslategray;
+}
+.startsign .learnmore a{
+    text-decoration: none;
+}
+.startsign .screenshot a{
+    text-decoration: none;
+}
+.startsign .screenshot{
+    font-size: 14px;
+    position: absolute;
+    top: 72vh;
+    left: 3.3vw;
+    color: lightslategray;
+}
+.startsign .newsign1{
+    height: 4.5vh;
+    width: 18vw;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color:  rgb(71, 172, 239);
+    font-weight: 600;
+    position: absolute;
+    top: 79vh;
+    left: 3.2vw;
+}
+.container2{
+    height: 8vh;
+    width: 23vw;
+    border: 1px solid lightgrey;
+    position: relative;
+    left: 38vw;
+    top: 4vh;
+}
+.container2 .newanker{
+    position: absolute;
+    top: 3vh;
+    left: 6.5vw;
+    font-size: 16px;
+}
+.container2 .newanker a{
+    text-decoration: none;
+}
+.container2 .getapps{
+    position: absolute;
+    top: 11vh;
+    left: 8.5vw;
+    font-size: 17px;
+}
+.imageflex img{
+    height: 6vh;
+    width: 9vw;
+    margin-top: 2vh;
+    margin-left: 5px;
+    position: relative;
+    left: 40vw;
+    top: 10vh;
+}
+.overalll{
+    position: absolute;
+    height: 20vh;
+    top: 124vh;
+    left: 22vw;
+    word-spacing: 15px;
+}
+.overalll a{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 14px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.overalll .overlast{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 13.5px;
+    position: absolute;
+    top: 4vh;
+    left: 20vw;
+}
+
+/* LOGIN PAGE   */
+
+.login00{
+display: flex;
+}
+.phasee1{
+
+    height: 100vh;
+    width: 17vw;
+    border-right: 1px solid rgb(210, 215, 221);
+    position: fixed;
+}
+body .displayone{
+    height: auto;
+    width: 81vw;
+    position: relative;
+    left: 17vw;
+}
+.phasee1 .loggo{
+    font-family: "Lobster Two", sans-serif;
+    font-size: 29px;
+    position: absolute;
+    top: 4vh;
+    left: 2vw;
+}
+.phasee1 .lineoff{
+    height: 6vh;
+    width: 16vw;
+    margin-top: 1vh;
+    position: relative;
+    top: 11vh;
+    left: .5vw;
+    word-spacing: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        background-color: rgb(240, 240, 240);
+    }
+
+}
+.phasee1 .lineoff span{
+    font-size: 17px;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    
+}
+.phasee1 .lineoff img{
+height: 4vh;
+width: 2vw;
+position: absolute;
+border-radius: 50%;
+top: 1.4vh;
+left: 0.8vw;
+}
+.phasee1 .lineoff .runn{
+    position: absolute;
+    top: 1.7vh;
+    left: 3.7vw;
+}
+.phasee1 .lineoff i{
+    font-size: 25px;
+    transition: 1s;
+    &:hover{
+        font-size: 28px;
+        transform: scale(1.2);
+    }
+}
+
+.phasee1 .lineoff2{
+    height: 6vh;
+    width: 16vw;
+    margin-top: 1vh;
+    position: relative;
+    top: 25vh;
+    left: .5vw;
+    word-spacing: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        background-color: rgb(240, 240, 240);
+    }
+
+}
+.phasee1 .lineoff2 span{
+    font-size: 17px;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    
+}
+.phasee1 .lineoff2 img{
+height: 4vh;
+width: 2vw;
+position: absolute;
+border-radius: 50%;
+top: 1.4vh;
+left: 0.8vw;
+}
+.phasee1 .lineoff2 i{
+    font-size: 25px;
+    transition: 1s;
+    &:hover{
+        font-size: 28px;
+        transform: scale(1.2);
+    }
+} 
+.phasee1 .lineoff3{
+    height: 6vh;
+    width: 16vw;
+    margin-top: 1vh;
+    position: relative;
+    top: 11vh;
+    left: .5vw;
+    word-spacing: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        background-color: rgb(240, 240, 240);
+    }
+
+}
+.phasee1 .lineoff3 span{
+    font-size: 17px;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    
+}
+.phasee1 .lineoff3 img{
+height: 4vh;
+width: 2vw;
+position: absolute;
+border-radius: 50%;
+top: 1.4vh;
+left: 0.8vw;
+}
+.phasee1 .lineoff3 i{
+    font-size: 25px;
+    transition: 1s;
+    &:hover{
+        font-size: 28px;
+        transform: scale(1.2);
+    }
+} 
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.8s ease-in-out;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header .caption {
+    margin: 0;
+    font-size: 24px;
+}
+
+#close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sidebar2 {
+    position: fixed;
+    top: 0;
+    left: -360px; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.8s ease-in-out;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar-header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header2 h2 .notify{
+    margin: 0;
+    font-size: 24px;
+}
+
+.search-input2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    left: -12px;
+    top: 4vh;
+}
+
+.search-history2 {
+    list-style: none;
+    padding: 0;
+}
+
+.search-history2 li {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "poppins";
+    font-size: 13px;
+    height: 8vh;
+}
+
+.search-history2 li img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 8px;
+    left: -5px;
+}
+.search-history2 li .img2{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    object-fit: cover;
+    position: relative;
+    top: -14vh;
+    left: 15vw;
+
+}
+.search-history2 li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar2.active {
+    left: 238px;
+}
+.following1{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    font-family: "poppins";
+    padding: 6px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: -14vh;
+    left: 13.4vw;
+    &:hover{
+        background-color: rgb(226, 226, 226);
+    }
+}
+
+.notify1{
+    position: relative;
+    top: -7vh;
+    left: 3vw;
+}
+.notify2{
+    position: relative;
+    top: -8vh;
+    left: 3vw;
+}
+
+.inpuut .input-search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    left: -12px;
+    top: 4vh;
+}
+.inputsearch{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+}
+
+.search-history {
+    list-style: none;
+    padding: 0;
+}
+
+.search-history li {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "poppins";
+    font-size: 13px;
+    position: relative;
+    top: 1vh;
+}
+
+li img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 8px;
+    left: -5px;
+}
+.search-history li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar.active {
+    left: 265px;
+}
+
+.close{
+    position: relative;
+    top: 4vh;
+    left: 9vw;
+    text-align: center;
+    /* font-size: 1.5em; */
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.sidebar3 {
+    position: fixed;
+    /* top: 20vh; */
+    left: 24px;
+    bottom: -400px; /* Initially hidden */
+    width: 150px;
+    height: 132px;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.01s;
+    padding: 20px;
+    z-index: 1000;
+    /* border: 1px solid #a02e2e; */
+    border-radius: 7px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.search-history3 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.search-history3 li {
+    border-bottom: 1px solid #cbcaca;
+    cursor: pointer;
+    font-family: "poppins";
+    font-size: 13px;
+    height: 6vh;
+    width: 12.7vw;
+    background-color: #f9f9f9;
+    position: relative;
+   top: -3vh;
+   left: -2vw;
+   padding-left: 6px;
+}
+.search-history3 li p{
+    position: absolute;
+    top:12px;
+    left: 24px;
+    font-size: 14px;
+}
+.search-history3 li i{
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.search-history3 li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar3.active {
+    bottom: 92px;
+}
+
+.sidebar4 {
+    position: fixed;
+    left: 2px;
+    bottom: -480px; 
+    width: 230px;
+    height: 380px;
+    overflow-y: auto;
+    transition: left 0.3s;
+    padding: 20px;
+    z-index: 1000;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sidebar4 .mini1{
+    position: absolute;
+    height: 39vh;
+    width: 255px;
+    /* border: 1px solid black; */
+    left: 5px;top: 5px;
+    background-color: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+z-index: 1000;
+}
+.sidebar4.active {
+    bottom: 78px;
+}
+.search-history4 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+ .search-history4 li{
+    height: 7vh;
+    width: 15.4vw;
+    /* border: 1px solid rgb(213, 79, 79); */
+    position: relative;
+    top: 15px;
+    left: 9px;
+    border-radius: 7px;
+    &:hover{
+        background-color: rgb(232, 233, 233);
+    }
+    
+ }
+.search-history4 li i{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.search-history4 li p{
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    font-size: 15px;
+    font-family: "poppins";
+}
+.sidebar4 .mini2{
+    position: relative;
+    height: 18vh;
+    width: 255px;
+    /* border: 1px solid black; */
+   
+    background-color: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    top: 36vh;
+    left: -.97vw;
+}
+
+.search-history5 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+ .search-history5 li{
+    height: 7vh;
+    width: 15.4vw;
+    /* border: 1px solid rgb(213, 79, 79); */
+    position: relative;
+  top: 1vh;
+    left: 9px;
+    border-radius: 7px;
+    margin-top: 10px;
+    &:hover{
+        background-color: rgb(232, 233, 233);
+    }
+    
+ }
+ .search-history5 li i{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.search-history5 li p{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-size: 15px;
+    font-family: "poppins";
+}
+.emmt{
+    height: 1px;
+    width: 10vh;
+    background-color: #aa3b3b;
+    position: relative;
+    top: 80vh;
+}
+
+
+
+
+.displayone .boxx{
+    height: 11vh;
+    width: 5vw;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.displayone .boxx img{
+    height: 11vh;
+    width: 5vw;
+    border-radius: 50%;
+}
+.displayone main{
+    height: 18vh;
+    width: 35vw;
+    position: relative;
+    top: 2vh;
+    left: 8vw;
+    display: flex;
+    overflow: visible;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.js-left{
+    position: absolute;
+    top: 7vh;
+left: 6.5vw;
+   font-size: 18px;
+}
+.js-right{
+    position: absolute;
+    top: 7vh;
+left: 44vw;
+   font-size: 18px;
+}
+
+.displayone main .leo{
+    font-size: 11px;
+    margin-left: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightslategray;
+}
+
+.displayone aside{
+    height: 74vh;
+    width: 20vw;
+    position: absolute;
+    top: 2vh;
+    right: 7vw;
+}
+.displayone aside .linee img{
+    height: 6.2vh;
+    width: 3vw;
+    position: absolute;
+    border-radius: 50%;
+    top: 1.4vh;
+    left: 0.8vw;
+    cursor: pointer;
+}
+.displayone aside .linee .runn1{
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 2vh;
+    left: 4.5vw;
+    cursor: pointer;
+}
+.displayone .line22{
+    font-size: 14px;
+    font-weight: 200;
+    position: absolute;
+    color: lightslategray;
+    top: 4.5vh;
+    left: 4.5vw;
+}
+.displayone .line23{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb( 0, 149, 249);
+    top: 3vh;
+    right: 2vw;
+    cursor: pointer;
+    &:hover{
+        color: #354ad4;
+    }
+}
+.displayone .line24{
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    color: rgb(93, 93, 93);
+    top: 10vh;
+    left: .8vw;
+}
+.displayone .line25{
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    color: rgb(47, 47, 47);
+    top: 10vh;
+    right: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.displayone aside .forblock{
+    height: 41vh;
+    width: 20vw;
+    position: relative;
+    top: 14vh;
+
+}
+.displayone .forblock .forblock1{
+    height: 8vh;
+    width: 20vw;
+    position: relative;
+    top: 3px;
+    
+
+}
+.displayone .forblock .forblock1 .block1 img{
+    height: 6.2vh;
+    width: 3vw;
+    position: absolute;
+    border-radius: 50%;
+    top: 1vh;
+    left: 0.8vw;
+}
+.displayone .forblock .forblock1 .block2{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 1.5vh;
+    left: 4.5vw;
+}
+.displayone .forblock .forblock1 .block3{
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+    color: lightslategray;
+    top: 2vh;
+    left: 4.5vw;
+}
+.displayone .forblock .forblock1 .block4{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb( 0, 149, 249);
+    top: 3vh;
+    right: 2vw;
+    cursor: pointer;
+    &:hover{
+        color: #354ad4;
+    }  
+}
+aside .block5{
+    height: 8vh;
+    width: 20vw;
+    position: absolute;
+    top: 58vh;
+    word-spacing: 5px;
+}
+aside .block5 a{
+    color: rgb(182, 188, 194); 
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+aside .block6{
+    position: absolute;
+    top: 66vh;
+    color: rgb(182, 188, 194); 
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.displayone figure{
+    height: 100vh;
+    width: 29vw;
+    position: absolute;
+    top: 21vh;
+    left: 11vw;
+}
+.displayone figure .figuremain{
+    height: 100vh;
+    width: 29vw;
+    position: relative;
+    margin-top: 2vh;
+}
+.displayone .figure1 img{
+    height: 6.2vh;
+    width: 3vw;
+    position: absolute;
+    border-radius: 50%;
+    top: 1vh;
+    left: 0.8vw;
+}
+.displayone .figure2{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 1.5vh;
+    left: 4.5vw;
+}
+.displayone .figure3{
+    font-size: 12px;
+    font-weight: 200;
+    position: relative;
+    color: rgb(108, 108, 108);
+    top: 2vh;
+    left: 4.5vw;
+}
+.displayone figure i{
+    position: absolute;
+    top: 2.1vh;
+    left: 7.8vw;
+    font-size: 13px;
+}
+.displayone figure .figure4 i{
+    font-size: 7px;
+    margin-top: 3px;
+    margin-left: 2.7px;
+}
+.displayone .figure5{
+    height: 70vh;
+    width: 29vw;
+    position: absolute;
+    border-radius: 7px;
+    top:9vh;
+}
+.displayone .figure5 img{
+    height: 70vh;
+    width: 29vw;
+    border-radius: 7px;
+
+}
+
+.displayone .figure6{
+    position: absolute;
+    top: 78.5vh;
+    right: 36.5vw;
+}
+.displayone .figure6 i{
+    font-size: 22px;
+}
+.displayone .figure7{
+    position: absolute;
+    top: 78.5vh;
+    right: 34vw;
+}
+.displayone .figure7 i{
+    font-size: 22px;
+}
+.displayone .figure8{
+    position: absolute;
+    top: 78.5vh;
+    right: 31.5vw;
+}
+.displayone .figure8 i{
+    font-size: 20px;
+}
+.displayone .figure9{
+    position: absolute;
+    top: 85vh;
+    left: 4px;
+    font-size: 14px;
+    color: rgb(67, 66, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.displayone .figure9 .fig1{
+    font-weight: 600;
+    cursor: pointer;
+}
+.displayone .figure10{
+    position: absolute;
+    top: 88vh;
+    left: 4px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.displayone .figure11 i{
+    position: absolute;
+    top: 88.6vh;
+    left: 3.8vw;
+}
+.displayone .figure12 i{
+    position: absolute;
+    top: 88.6vh;
+    left: 3.8vw;
+    font-size: 7px;
+    margin-top: 3px;
+    margin-left: 2.7px;
+}
+.displayone .figure13{
+    position: absolute;
+    top: 87.9vh;
+    left: 5vw;
+    color: rgba(51, 51, 51, 0.984);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.displayone .figure14{
+    position: absolute;
+    top: 90.5vh;
+    left: 4px;
+    color: lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.displayone .figure15{
+    position: absolute;
+    top: 93.5vh;
+    left: 4px;
+    color: lightslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+input[type="search"]{
+    height: 3vh;
+    width: 28vw;
+    position: absolute;
+    top: 94vh;
+    left: 1px;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+}
+.displayone .figure16 i{
+    position: absolute;
+    top: 94.5vh;
+    left: 27vw;
+}
+.displayone .figure17{
+    height: .5px;
+    width: 29vw;
+    background-color: rgb(187, 189, 191);
+    position: absolute;
+    top: 99.9vh;
+}
+
+.phasee1 .lineoff .bold{
+    font-size: 17px;
+    position: absolute;
+    font-weight: 750;
+    top: 1vh;
+    left: 1vw;
+    
+}
+
+
+/* .login001 .displayzone{ 
+    height: 50vh;
+    width: 70vw; 
+    border: 1px solid red;
+     position: absolute; 
+     left: 17vw; 
+    position: relative;
+    LEFT:30vw; 
+     display: flex;
+    GAP:10PX;
+    flex-wrap: wrap; 
+      display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;   
+    column-gap: 10px;  
+    
+}  */
+/* .displayzone img{ 
+    
+    height: 48vh;
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid red;
+    width: 18vw;
+    object-fit: cover;
+
+   
+} */
+/* .displayzone video{
+    grid-row: span 2;
+    height: 101vh;
+    width: 18vw;
+    object-fit: cover;
+
+} */
+/* .login001 .container-explore{
+    width:100vh;
+    display: flex;
+    
+} */
+.container-explore .displayzone{
+    width:50vw;
+    display: grid;
+    grid-template-columns:100px 100px 200px;
+
+}
+/* .displayone img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    object-fit: cover;
+} */
+
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+    .start {
+        height: auto;
+    }
+    .first {
+        width: 80%;
+        height: auto;
+        right: 10%;
+        top: 5vh;
+    }
+    .first h1 {
+        font-size: 35px;
+        left: 10%;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 70%;
+        left: 15%;
+    }
+    .first button {
+        width: 75%;
+        left: 12.5%;
+    }
+}
+
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+    .first {
+        width: 90%;
+        right: 5%;
+        top: 3vh;
+    }
+    .first h1 {
+        font-size: 30px;
+        left: 5%;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 80%;
+        left: 10%;
+    }
+    .first button {
+        width: 85%;
+        left: 7.5%;
+    }
+    .start .image {
+        display: none; /* Hide large images for better mobile experience */
+    }
+}

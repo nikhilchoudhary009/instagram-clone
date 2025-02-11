@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-ixon" href="../images/innnsta.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../Css File/insta.css">
+<body>
+    <script>
+        function explore(){
+            setTimeout(() => {
+                window.open("explore.html","_self")
+            }, 50);
+        }
+        function reel(){
+            setTimeout(() => {
+                window.open("reel.html","_self")
+            }, 100);
+        }
+        function message() {
+            window.open("message.html","_self")}
+            function profilee() {
+            window.open("profile.html","_self")
+        }
+        function threads() {
+            window.open("threads.html")}
+        
+        function storiesslider(direction){
+            var slider = document.querySelector('main');
+            if(direction === 'left'){
+                slider.scrollLeft -= 120;
+            }else{
+                slider.scrollLeft += 120;
+            }
+        }
+        function toggle() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');           
+} 
+function clearsearches() {
+    const searchlist = document.querySelector('.search-history');
+    searchlist.innerHTML = '';
+}
+function toggle2() {
+            const sidebar = document.getElementById('sidebar2');
+            sidebar.classList.toggle('active');           
+} 
+function toggle3() {
+            const sidebar = document.getElementById('sidebar3');
+            sidebar.classList.toggle('active'); 
+            } 
+
+            function toggle4() {
+            const sidebar = document.getElementById('sidebar4');
+            sidebar.classList.toggle('active'); 
+            const audio = document.getElementById('audio');
+            audio.play();
+           
+
+            } 
+    
+    </script>
+    <div class="phasee1">
+        <p class="loggo">Instagram</p>
+        <p class="lineoff"><span onclick="this.style.fontWeight='800'"><i class="fa-solid fa-house" style="color: #0d0d0d;"></i> Home</span></p>
+        <p class="lineoff3" onclick="toggle()"><span><i class="fa-solid fa-magnifying-glass" style="color: #141414;"></i> Search</span></p>
+        <p class="lineoff" onclick="explore()"><span ><i class="fa-regular fa-compass" style="color: #0c0d0d;"></i> Explore</span></p>
+        <p class="lineoff" onclick="reel()"><span ><i class="fa-solid fa-yin-yang" style="color: #050505;"></i> Reels</span></p>
+        <p class="lineoff" onclick="message()"><span><i class="fa-regular fa-message" style="color: #080808;"></i> Message</span></p>
+        <p class="lineoff" onclick="toggle2()"><span><i class="fa-regular fa-heart" style="color: #0f0f10;"></i> Notification</span></p>
+        <p class="lineoff" onclick="toggle3()"><span><i class="fa-regular fa-square-plus" style="color: #050505;"></i> Create</span></p>
+        <p class="lineoff" onclick="profilee()"><img src="../images/nikhil1.jpg"><span class="runn">Profile</span></p>
+        <p class="lineoff2" onclick="threads()"><span><i class="fa-brands fa-threads" style="color: #0a0a0a;"></i> Threads</span></p>
+        <p class="lineoff2" onclick="toggle4()"><span><i class="fa-solid fa-bars" style="color: #0d0d0d;"></i> Menu</span></p>
+
+        
+    </div>
+    <div class="displayone">
+        <div class="js-left" onclick="storiesslider('left')"><i class="fa-solid fa-angle-left" style="color: #878787;"></i></div>
+        <div class="js-right" onclick="storiesslider('right')"><i class="fa-solid fa-angle-right" style="color: #878787;"></i></div>
+        <main>
+            
+        <div class="boxx">
+            <img src="../images/messi.jpg">
+            <p class="leo">leomessi</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/arijit.jpg">
+            <p class="leo">Arijit Singh</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/sal,am.jpg">
+            <p class="leo">Salman Khan</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/s,w.jpg">
+            <p class="leo">Sidhu MW</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/karan.jpg">
+            <p class="leo">karan Aujla</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/sonam.jpg">
+            <p class="leo">Sonam Baj..</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/therock.jpg">
+            <p class="leo">The Rock</p>
+        </div>
+        <div class="boxx">
+            <img src="../images/sultan.jpg">
+            <p class="leo">Sultan</p>
+        </div>
+        </main>
+       
+
+        <aside>
+            <p class="linee" onclick="profilee()"><img src="../images/nikhil1.jpg"><span class="runn1">_nikhil._.x09</span></p>
+            <p class="line22" >Nikhil🤍</p>
+            <p class="line23">Switch</p>
+            <p class="line24">Suggested for you</p>
+            <p class="line25">See All</p>
+            <div class="forblock">
+                <div class="forblock1">
+                <p class="block1"><img src="../images/dp3.jpg"><span class="block2">prachi_singh</span></p>
+                <p class="block3">Followed by markma1887415157</p>
+                <p class="block4">Follow</p>
+                </div>
+                <div class="forblock1">
+                <p class="block1"><img src="../images/dpp1.webp"><span class="block2">psychic_me</span></p>
+                <p class="block3">Followed by shasura</p>
+                <p class="block4">Follow</p>
+                </div>
+                <div class="forblock1">
+                <p class="block1"><img src="../images/dpp1.webp"><span class="block2">Itz_shreya</span></p>
+                <p class="block3">Followed navaan sandhu</p>
+                <p class="block4">Follow</p>
+                </div>
+                <div class="forblock1">
+                <p class="block1"><img src="../images/dp4.webp"><span class="block2">Rahul_thakur</span></p>
+                <p class="block3">Followed by sakshi thakur</p>
+                <p class="block4">Follow</p>
+                </div>
+                <div class="forblock1">
+                <p class="block1"><img src="../images/dp6.jpg"><span class="block2">Jassdeep_01</span></p>
+                <p class="block3">Followed by arman malik</p>
+                <p class="block4">Follow</p>
+                </div>
+            </div>
+            <div class="block5">
+                <a href="#">Help.</a>
+                <a href="#">About.</a>
+                <a href="#">Press.</a>
+                <a href="#">API.</a>
+                <a href="#">Job.</a>
+                <a href="#">Privacy.</a>
+                <a href="#">Terms.</a>
+                <a href="#">Location.</a>
+                <a href="#">Language.</a>
+                <a href="#">Meta Verified.</a>
+            </div>
+            <p class="block6">© 2024 INSTAGRAM FROM META</p>
+        </aside>
+        <audio controls autoplay src="../images/welcome2.mp3"></audio>
+        <figure>
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/therock.jpg"><span class="figure2">therock</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">United States</p>
+            <div class="figure5">
+                <img src="../images/the rock 1.jpg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">maheshringe1201</span> and <span class="fig1">others</span></p>
+            <p class="figure10">therock</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Let them show the real power💪✨</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/arijit.jpg"><span class="figure2">arijit_s..</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Delhi NCR</p>
+            <div class="figure5">
+                <img src="../images/arijit111.jpeg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">sonu_nigam</span> and <span class="fig1">others</span></p>
+            <p class="figure10">Arijit_s..</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Sings everyone from hearts❤️</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/s,w.jpg"><span class="figure2">sidhu_..</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Punjab</p>
+            <div class="figure5">
+                <img src="../images/smw1.jpeg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">gippy_grewal</span> and <span class="fig1">others</span></p>
+            <p class="figure10">Arijit_s..</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Dil da ni madda..💪</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+
+
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/therock.jpg"><span class="figure2">therock</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Punjab</p>
+            <div class="figure5">
+                <img src="../images/rock3.jpg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">brocklessner</span> and <span class="fig1">others</span></p>
+            <p class="figure10">therock</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Let's Fight💪</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+
+
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/karan.jpg"><span class="figure2">karan_a.</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Brampton</p>
+            <div class="figure5">
+                <img src="../images/krn2.jpg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">honey_singh</span> and <span class="fig1">others</span></p>
+            <p class="figure10">Karan_a.</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">You know what it is..🤍</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+
+
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/sal,am.jpg"><span class="figure2">salmank..</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Mumbai</p>
+            <div class="figure5">
+                <img src="../images/slman.jpg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">sonam_bajwa</span> and <span class="fig1">others</span></p>
+            <p class="figure10">salmank..</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Swagat Nhi Kroge Hmara😎</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+
+
+            <div class="figuremain">
+            <p class="figure1"><img src="../images/messi.jpg"><span class="figure2">leomes..</span></p>
+            <i class="fa-solid fa-certificate" style="color: #2392e7;"></i>
+            <p class="figure4"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure3">Punjab</p>
+            <div class="figure5">
+                <img src="../images/messi1.jpg">
+            </div>
+            <p class="figure6" ><i class="fa-regular fa-heart" style="color: #050505;" onclick="this.style.color='black'" ondblclick="this.style.color='red'"></i></p>
+            <p class="figure7"><i class="fa-regular fa-comment" style="color: #141414;"></i></p>
+            <p class="figure8"><i class="fa-solid fa-paper-plane" style="color: #080808;"></i></p>
+            <p class="figure9">Liked by <span class="fig1">ronaldo</span> and <span class="fig1">others</span></p>
+            <p class="figure10">leomes..</p>
+            <p class="figure11"> <i class="fa-solid fa-certificate" style="color: #2392e7;"></i></p>
+            <p class="figure12"><i class="fa-solid fa-check" style="color: #ffffff;"></i></p>
+            <p class="figure13">Let's Play🦵⚽</p>
+            <p class="figure14">...more</p>
+            <input type="search" placeholder="Add a comment...">
+            <p class="figure16"><i class="fa-regular fa-face-smile" style="color: #b7b7b8;"></i></p>
+            <p class="figure17"></p>
+            </div>
+        </figure>
+        <div class="sidebar" id="sidebar">
+            <div class="close" onclick="clearsearches()"><i class="fa-regular fa-circle-xmark" style="color: #000000;"></i>
+            </div>
+            <h2 class="caption">Search</h2>
+             <div class="inpuut"><input type="text" placeholder="Search..." class="input-search"></div>
+             <ul class="search-history">
+                 <li><img src="../images/v1.jpg" alt="">Ankush_rana</li>
+                 <li><img src="../images/v2.jpg" alt="">Rajput_aman</li>
+                 <li><img src="../images/t6.jpg" alt="">Pallavi_singh</li>
+                 <li><img src="../images/v4.jpg" alt="">Vishal_dhiman</li>
+                 <li><img src="../images/t7.jpg" alt="">Rajput_shikha</li>
+                 <li><img src="../images/t1.jpg" alt="">Sahil_rana</li>
+                 <li><img src="../images/t8.jpg" alt="">Prachi_singh</li>
+                 
+             </ul>
+         </div>
+
+         <div class="sidebar2" id="sidebar2" >  
+            <h2 class="notify">Notification</h2>
+           <ul class="search-history2">
+               <li><img src="../images/v2.jpg" alt=""><p class="notify1"> <span class="notify3">Rohan_preet </span> like your<br> photo. 2m ago</p> <img src="../images/11.jpg" class="img2"></li>
+               <li><img src="../images/v7.jpg" alt=""><p class="notify1"> <span class="notify3">Anush89_gupta </span> like your<br> photo. 3m ago</p> <img src="../images/4.jpg" class="img2"></li>
+               <li><img src="../images/v8.jpg" alt=""><p class="notify1"> <span class="notify3">Amit_rana </span> like your<br> photo. 4m ago</p> <img src="../images/w1.jpg" class="img2"></li>
+               <li><img src="../images/v9.jpg" alt=""><p class="notify1"> <span class="notify3">akash_verma </span> like your<br> photo. 5m ago</p> <img src="../images/w2.jpg" class="img2"></li>
+               <li><img src="../images/t6.jpg" alt=""><p class="notify1"> <span class="notify3">x_tanu_rana </span> started<br>following you. 10m ago</p> <button class="following1">Following</button></li>
+               <li><img src="../images/v6.jpg" alt=""><p class="notify1"> <span class="notify3">nitish_verma </span> commented <br> on your photo. 15m ago</p> <img src="../images/w4.jpg" class="img2"></li>
+               <li><img src="../images/t7.jpg" alt=""><p class="notify1"> <span class="notify3">Lavleen_13 </span> like your<br> photo. 18m ago</p> <img src="../images/w6.jpg" class="img2"></li>
+               <li><img src="../images/q10.jpg" alt=""><p class="notify1"> <span class="notify3">instagram.user </span> started<br>following you. 21m ago</p> <button class="following1">Following</button></li>
+               <li><img src="../images/t8.jpg" alt=""><p class="notify1"> <span class="notify3">Simran_rana </span> started<br>following you. 21m ago</p> <button class="following1">Following</button></li>
+               <li><img src="../images/t9.jpg" alt=""><p class="notify1"> <span class="notify3">Kashish_21 </span> started<br>following you. 21m ago</p> <button class="following1">Following</button></li>
+               
+           </ul>
+       </div>
+       <div class="sidebar3" id="sidebar3" >  
+        <!-- <h2 class="notify">Notification</h2> -->
+       <ul class="search-history3">
+           <li><p> Post</p> <i class="fa-solid fa-images" style="color: #000000;"></i></li>
+           <li><p> Live video</p> <i class="fa-solid fa-satellite-dish" style="color: #000000;"></i></li>
+           <li><p> Ads</p> <i class="fa-solid fa-arrow-trend-up" style="color: #030303;"></i></li>
+           <li><p> AI Character</p> <i class="fa-solid fa-wand-magic-sparkles" style="color: #000000;"></i></li>
+          
+           
+       </ul>
+   </div>
+   <div class="sidebar4" id="sidebar4">
+    <div class="mini1">
+        <ul class="search-history4">
+            <li><i class="fa-solid fa-gear" style="color: #000000;"></i> <p class="mintext">Setting</p></li>
+            <li><i class="fa-solid fa-chart-line" style="color: #000000;"></i> <p class="mintext">Your activity</p></li>
+            <li><i class="fa-regular fa-bookmark" style="color: #000000;"></i> <p class="mintext">Saved</p></li>
+            <li><i class="fa-brands fa-slack" style="color: #080808;"></i> <p class="mintext">Your appearance</p></li>
+            <li><i class="fa-solid fa-triangle-exclamation" style="color: #000000;"></i> <p class="mintext">Report a problem</p></li>
+        </ul>
+    </div>
+    <div class="mini2">
+        <ul class="search-history5">
+            <li><p class="mintext">Switch accounts</p></li>
+            <li> <p class="mintext">Logout</p></li> 
+        </ul>
+        <audio id="audio" src="images/openmessage.mp3"></audio>
+        <audio id="audio1" src="images/profileopen.mp3"></audio>
+    </div>
+            </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img{
+    height: auto;
+    width: 110vw;
+    position: relative;
+    top: -20vh;
+    left: -4vw;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    height: 77vh;
+    width: 35vw;
+    position: absolute;
+    top: 20vh;
+    left: 32vw;
+    
+}
+.line1{
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 3vh;
+    left: 9vw;
+    font-weight:600 ;
+}
+input[type="email"]{
+    height: 5vh;
+    width: 21.5vw;
+    position: absolute;
+    top: 7vh;
+    left: 5.5vw;
+    padding: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+input[type="password"]{
+    height: 5vh;
+    width: 21.5vw;
+    position: absolute;
+    top: 16vh;
+    left: 5.5vw;
+    padding: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+button{
+    height: 8vh;
+    width: 23.4vw;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 25vh;
+    left: 5.5vw;
+    padding: 10px;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 600;
+}
+.forget{
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 36vh;
+    left: 14vw;
+   color: slategray;
+   cursor: pointer;
+}
+hr{
+    position: absolute;
+    top: 43.2vh;
+    left: 14.5vw;
+    width: 2vw;
+    border: 1px solid slategray;
+   
+}
+.or{
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 42vh;
+    left: 17.2vw;
+    color: slategray;
+}
+.h2{
+    position: absolute;
+    top: 43.2vh;
+    left: 18.6vw;
+    width: 2vw;
+    border: 1px solid  slategrey;
+   
+}
+.insta{
+  height: 11vh;
+  width: 23.4vw;
+  border: 1px solid rgb(179, 179, 179);
+    position: absolute;
+    top: 50vh;
+    left: 5.5vw;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.img2{
+    height: 8vh;
+    width: 8vh;
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    cursor: pointer;
+}
+.insta2{
+    font-size: 17px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 4vh;
+    left: 6vw;
+    font-weight:600 ;
+    cursor: pointer;
+}
+.insta3 {
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 4.4vh;
+    left: 22vw;
+    color: slategray;
+    font-weight: 200;
+    cursor: pointer;
+}
+.last{
+    font-size: 12px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 73vh;
+    left: 4vw;
+    color: slategray;
+}
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: slategray;
+    position: relative;
+    top: 72.4vh;
+    margin-right: 13px;
+    left: 7.4vw;gap: 5px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.scan{
+    font-size: 12px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 31vh;
+    right: 5.6vw;
+    color: slategray;
+}
+.img3{
+   height: 25vh;
+   width: 11vw;
+   position: absolute;
+   top: 70vh;
+   left: 86vw;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: .5s;
+   &:hover{
+         transform: scale(1.1);
+   }
+}

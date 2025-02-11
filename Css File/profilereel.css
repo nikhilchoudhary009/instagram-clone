@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+.container-explore{
+display: flex;
+gap:15px;
+overflow-x: hidden;
+}
+.explore-left{
+    width:15vw;
+    height:98vh;
+    color: white;
+    z-index:1;
+    border-right:.2px solid rgb(189, 189, 189);
+    color:black;
+    box-shadow: 5px 5px 9px whitesmoke;
+    position: fixed;
+}
+.explore-left .text1{
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top:2vh;
+    
+    
+}
+.explore-left .text{
+    margin-top: 4px;
+}
+.home i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.search i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.explore i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.reels i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.messages i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.notifications i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.create i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.profile i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.threads i{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.more i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.explore-left .home{
+    display: flex;
+    position: absolute;
+    top:13vh;
+    font-size: 1.3em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+
+}
+.explore-left .search{
+    display: flex;
+    position: absolute;
+    top:20vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+    
+}
+.explore-left .explore{
+    display: flex;
+    position: absolute;
+    top:27vh;
+    font-size: 1.2em;
+    gap:20px; 
+    cursor: pointer;
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+}
+.explore-left .reels{
+    display: flex;
+    position: absolute;
+    top:34vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+}
+.explore-left .messages{
+    display: flex;
+    position: absolute;
+    top: 41vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+}
+.explore-left .notifications{
+    display: flex;
+    position: absolute;
+    top:48vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+}
+
+.explore-left .create{
+    display: flex;
+    position: absolute;
+    top:54vh;
+    font-size: 1.2em;
+    gap:20px;
+    left:2vh; 
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+    
+}
+.explore-left .profile{
+    display: flex;
+    position: absolute;
+    top:60vh;
+    font-size: 1.2em;
+    gap:20px;
+    left:2vh; 
+    padding: 7px;
+    height: 4.5vh;
+    font-weight: bold;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+    
+}
+.explore-left .threads{
+    display: flex;
+    position: absolute;
+    top:83vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+    
+}
+.explore-left .more{
+    display: flex;
+    position: absolute;
+    top:89vh;
+    font-size: 1.2em;
+    gap:20px; 
+    left:2vh;
+    padding: 7px;
+    height: 4.5vh;
+    width: 12vw;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover{
+        background-color: rgb(240, 241, 241);
+    }
+    
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.8s ease-in-out;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header .caption {
+    margin: 0;
+    font-size: 24px;
+}
+
+#close-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    left: -12px;
+    top: 4vh;
+}
+
+.search-history {
+    list-style: none;
+    padding: 0;
+}
+
+.search-history li {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "poppins";
+    font-size: 13px;
+}
+
+li img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 8px;
+    left: -5px;
+}
+.search-history li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar.active {
+    left: 238px;
+}
+
+.close{
+    position: relative;
+  
+    top: 7vh;
+    left: 9vw;
+    text-align: center;
+    /* font-size: 1.5em; */
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.sidebar2 {
+    position: fixed;
+    top: 0;
+    left: -360px; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.8s ease-in-out;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.sidebar-header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-header2 h2 .notify{
+    margin: 0;
+    font-size: 24px;
+}
+
+.search-input2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    left: -12px;
+    top: 4vh;
+}
+
+.search-history2 {
+    list-style: none;
+    padding: 0;
+}
+
+.search-history2 li {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: "poppins";
+    font-size: 13px;
+    height: 8vh;
+}
+
+.search-history2 li img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 8px;
+    left: -5px;
+}
+.search-history2 li .img2{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    object-fit: cover;
+    position: relative;
+    top: -14vh;
+    left: 15vw;
+
+}
+.search-history2 li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar2.active {
+    left: 238px;
+}
+.following1{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    font-family: "poppins";
+    padding: 6px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: -14vh;
+    left: 13.4vw;
+    &:hover{
+        background-color: rgb(226, 226, 226);
+    }
+}
+
+.notify1{
+    position: relative;
+    top: -7vh;
+    left: 3vw;
+}
+.notify2{
+    position: relative;
+    top: -8vh;
+    left: 3vw;
+}
+
+.sidebar3 {
+    position: fixed;
+    /* top: 20vh; */
+    left: 24px;
+    bottom: -400px; /* Initially hidden */
+    width: 150px;
+    height: 132px;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: left 0.01s;
+    padding: 20px;
+    z-index: 1000;
+    /* border: 1px solid #a02e2e; */
+    border-radius: 7px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.search-history3 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.search-history3 li {
+    border-bottom: 1px solid #cbcaca;
+    cursor: pointer;
+    font-family: "poppins";
+    font-size: 13px;
+    height: 6vh;
+    width: 12.7vw;
+    background-color: #f9f9f9;
+    position: relative;
+   top: -5vh;
+   left: -2vw;
+   padding-left: 6px;
+}
+.search-history3 li p{
+    position: absolute;
+    top: -3px;
+    left: 24px;
+    font-size: 14px;
+}
+.search-history3 li i{
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.search-history3 li:hover {
+    background-color: #f9f9f9;
+}
+
+/* Show Sidebar */
+.sidebar3.active {
+    bottom: 92px;
+}
+
+.sidebar4 {
+    position: fixed;
+    left: 2px;
+    bottom: -480px; 
+    width: 230px;
+    height: 380px;
+    overflow-y: auto;
+    transition: left 0.3s;
+    padding: 20px;
+    z-index: 1000;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sidebar4 .mini1{
+    position: absolute;
+    height: 39vh;
+    width: 255px;
+    /* border: 1px solid black; */
+    left: 5px;top: 5px;
+    background-color: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+z-index: 1000;
+}
+.sidebar4.active {
+    bottom: 78px;
+}
+.search-history4 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+ .search-history4 li{
+    height: 7vh;
+    width: 15.4vw;
+    /* border: 1px solid rgb(213, 79, 79); */
+    position: relative;
+    top: -7px;
+    left: 9px;
+    border-radius: 7px;
+    &:hover{
+        background-color: rgb(232, 233, 233);
+    }
+    
+ }
+.search-history4 li i{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.search-history4 li p{
+    position: absolute;
+    top: -3px;
+    left: 40px;
+    font-size: 15px;
+    font-family: "poppins";
+}
+.sidebar4 .mini2{
+    position: relative;
+    height: 18vh;
+    width: 255px;
+    /* border: 1px solid black; */
+   
+    background-color: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    top: 36vh;
+    left: -.97vw;
+}
+
+.search-history5 {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+ .search-history5 li{
+    height: 7vh;
+    width: 15.4vw;
+    /* border: 1px solid rgb(213, 79, 79); */
+    position: relative;
+  top: 8px;
+    left: 9px;
+    border-radius: 7px;
+    margin-top: 10px;
+    &:hover{
+        background-color: rgb(232, 233, 233);
+    }
+    
+ }
+ .search-history5 li i{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    font-size: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.search-history5 li p{
+    position: absolute;
+    top: -3px;
+    left: 40px;
+    font-size: 15px;
+    font-family: "poppins";
+}
+.emmt{
+    height: 1px;
+    width: 10vh;
+    background-color: #aa3b3b;
+    position: relative;
+    top: 80vh;
+}
+
+
+
+
+.explore-right{
+    width: 82vw;
+    height: 200vh;
+    position: absolute  ;
+    left: 16vw;  
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.explore-right img{
+    height:22.5vh;
+    width: 10.5vw;
+    border-radius: 50%;
+    object-fit: fill;
+    position: absolute;
+    left: 15vw;
+    top: 9vh;
+}
+.boxone span{
+    font-size: 13px;
+    color: rgb(121, 121, 121);
+    position: absolute;
+    top: 1.7vh;
+    left: 5px;
+     }
+     .boxone i{
+        position: absolute;
+        left: 3vw;
+        top: 2vh;
+     }
+     .boxone{
+        height: 5vh;
+        width: 4vw;
+        background-color: rgb(241, 246, 250);
+    border-radius: 15px;
+    position: absolute;
+    left:38.5vh;
+    top: 4vh;
+    padding:3px;
+    
+     }
+.explore-right .namme{
+    font-family: "poppins";
+    position: absolute;
+    top: 4vh;
+    left: 36vw;
+    font-size: 18px;
+}
+.explore-right button{
+    padding: 8px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: "poppins";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 8px;
+    font-weight: 600;
+    position: relative;
+    top: 6.3vh;
+    left: 44vw;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(226, 226, 226);
+    }
+}
+.explore-right .setting{
+    position: absolute;
+    top: 2.5vh;
+    left: 60vw;
+    font-size: 26px;
+}
+.follow1{
+    font-family: "poppins";
+    font-size: 15px;
+    position: absolute;
+    left: 36vw;
+    top: 11vh;
+}
+ span{
+    font-weight: 550;
+    font-family: "poppins";
+}
+.follow2{
+    font-family: "poppins";
+    font-size: 15px;
+    position: absolute;
+    left: 43vw;
+    top: 11vh;
+}
+.follow3{
+    font-family: "poppins";
+    font-size: 15px;
+    position: absolute;
+    left: 53vw;
+    top: 11vh;
+}
+.explore-right .nikk{
+    font-family: "poppins";
+    font-size: 15px;
+    position: absolute;
+    left: 36vw;
+    top: 16vh;
+    font-weight: 750;
+}
+.explore-right .button1{
+    background-color: rgb(244, 244, 244);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-family: "poppins";
+    padding: 5px;
+    font-weight: 400;
+    margin-left: 8px;
+    position: relative;
+    top: 22vh;
+    left: 19.7vw;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(226, 226, 226);
+    }
+}
+.sidhuu{
+    font-size: 12px;
+    color: rgb(0, 55, 107);
+    font-family: "poppins";
+    position: absolute;
+    top: 25vh;
+    left: 36.1vw;
+}
+.sidhuu2{
+font-size: 15px;
+    font-family: "poppins";
+    position: absolute;
+    top: 27vh;
+    left: 36vw;
+}
+.js-left{
+    font-size: 20px;
+    font-family: "poppins";
+    position: absolute;
+    top: 47vh;
+    left: 7vw;
+}
+.js-right{
+    font-size: 20px;
+    font-family: "poppins";
+    position: absolute;
+    top: 47vh;
+    right: 5vw;
+}
+.explore-right .highlight{
+    height: 22vh;
+    width: 65vw;
+    position: relative;
+    top: 37vh;
+    left: 9vw;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap: 45px;
+}
+.highlight .form1{
+    height: 19vh;
+    width: 10vw;
+    cursor: pointer;
+}
+.highlight .imgg1{
+    height: 14.5vh;
+    width: 6.6vw;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 50%;
+}
+.highlight .form1 .imgg1 img{
+    height: 13vh;
+    width: 6vw;
+    /* border: 1px solid rgb(218, 218, 218); */
+    border-radius: 50%;
+    position: relative;
+    left: .6vh;
+    top: .7vh;
+}
+.highlight .emoji{
+    font: 15px;
+    position: relative;
+    bottom: 2vh;
+    left: 2.8vw;
+}
+HR{
+    width: 65vw;
+    position: absolute;
+    top: 65vh;
+    left: 9vw;
+    border: .1px solid lightgray;
+}
+.explore-right .postss{
+    font-size: 13px;
+    position: relative;
+    top: 39vh;
+    left: 28vw;
+    color: #888787;
+    font-family: "poppins";
+    cursor: pointer;
+}
+.explore-right .EMTY{
+    height: auto;
+    width: 3.4vw;
+    border: .1px solid rgb(20, 20, 20);
+    position: relative;
+    top: 33.3vh;
+    left: 35.3vw;
+}
+.explore-right .reels{
+    font-size: 13px;
+    position: relative;
+    top: 32.2vh;
+    left: 35vw;
+   
+    font-family: "poppins";
+    cursor: pointer;
+}
+.explore-right .saved{
+    font-size: 13px;
+    position: relative;
+    top: 27.6vh;
+    left: 42vw;
+    color: #888787;
+    font-family: "poppins";
+    cursor: pointer;
+}
+.explore-right .tagged{
+    font-size: 13px;
+    position: relative;
+    top: 23vh;
+    left: 49vw;
+    color: #888787;
+    font-family: "poppins";
+    cursor: pointer;
+}
+.explore-right .post-section{
+    height: 111vh;
+    width: 65vw;
+    position: relative;
+    top: 24vh;
+    left: 9vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+  
+}
+
+.post-section video{
+    height: 55vh;
+    width: 16vw;
+    border-radius: 0%;
+    position: relative;
+    left: 2px;
+    top: 1px;
+    object-fit: cover;
+    &:hover{
+        filter: brightness(70%);
+    }
+}
+.explore-right a{
+    position: relative;
+    top: 27vh;
+    font-size: 11.5px;
+    color: slategray;
+    text-decoration: none;
+    left: 11vw;
+    margin-left: 10px;
+    font-family: "poppins";
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.explore-right select{
+    position: relative;
+    top: 32vh;
+    left: -30vw;
+    border: none;
+    outline: none;
+    color: slategray;
+    font-family: "poppins";
+    font-size: 11.5px;
+    overflow-x: hidden;
+}
+
+.explore-right .meta{
+    position: relative;
+    top: 28vh;
+    left: 36vw;
+    color: slategray;
+    font-family: "poppins";
+    font-size: 11.5px;
+}
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .explore-left {
+        width: 25vw;
+    }
+    .explore-left .home,
+    .explore-left .search,
+    .explore-left .explore,
+    .explore-left .reels,
+    .explore-left .messages,
+    .explore-left .notifications,
+    .explore-left .create,
+    .explore-left .profile,
+    .explore-left .threads,
+    .explore-left .more {
+        width: 20vw;
+        font-size: 1em;
+    }
+    .explore-right {
+        width: 70vw;
+        left: 26vw;
+    }
+    .explore-right img {
+        width: 20vw;
+    }
+    .explore-right .namme,
+    .explore-right .follow1,
+    .explore-right .follow2,
+    .explore-right .follow3,
+    .explore-right .nikk,
+    .explore-right .button1,
+    .explore-right .sidhuu,
+    .explore-right .sidhuu2,
+    .explore-right .js-left,
+    .explore-right .js-right,
+    .explore-right .highlight,
+    .explore-right .postss,
+    .explore-right .EMTY,
+    .explore-right .reels,
+    .explore-right .saved,
+    .explore-right .tagged,
+    .explore-right .post-section,
+    .explore-right a,
+    .explore-right select,
+    .explore-right .meta {
+        font-size: 0.9em;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .explore-left {
+        width: 35vw;
+    }
+    .explore-left .home,
+    .explore-left .search,
+    .explore-left .explore,
+    .explore-left .reels,
+    .explore-left .messages,
+    .explore-left .notifications,
+    .explore-left .create,
+    .explore-left .profile,
+    .explore-left .threads,
+    .explore-left .more {
+        width: 30vw;
+        font-size: 0.8em;
+    }
+    .explore-right {
+        width: 60vw;
+        left: 36vw;
+    }
+    .explore-right img {
+        width: 30vw;
+    }
+    .explore-right .namme,
+    .explore-right .follow1,
+    .explore-right .follow2,
+    .explore-right .follow3,
+    .explore-right .nikk,
+    .explore-right .button1,
+    .explore-right .sidhuu,
+    .explore-right .sidhuu2,
+    .explore-right .js-left,
+    .explore-right .js-right,
+    .explore-right .highlight,
+    .explore-right .postss,
+    .explore-right .EMTY,
+    .explore-right .reels,
+    .explore-right .saved,
+    .explore-right .tagged,
+    .explore-right .post-section,
+    .explore-right a,
+    .explore-right select,
+    .explore-right .meta {
+        font-size: 0.7em;
+    }
+}
+
+/* Larger Screen */
+@media (max-width: 1200px) {
+    .explore-left {
+        width: 12vw;
+    }
+    .explore-left .home,
+    .explore-left .search,
+    .explore-left .explore,
+    .explore-left .reels,
+    .explore-left .messages,
+    .explore-left .notifications,
+    .explore-left .create,
+    .explore-left .profile,
+    .explore-left .threads,
+    .explore-left .more {
+        width: 10vw;
+        font-size: 1.5em;
+    }
+    .explore-right {
+        width: 85vw;
+        left: 13vw;
+    }
+    .explore-right img {
+        width: 8vw;
+    }
+    .explore-right .namme,
+    .explore-right .follow1,
+    .explore-right .follow2,
+    .explore-right .follow3,
+    .explore-right .nikk,
+    .explore-right .button1,
+    .explore-right .sidhuu,
+    .explore-right .sidhuu2,
+    .explore-right .js-left,
+    .explore-right .js-right,
+    .explore-right .highlight,
+    .explore-right .postss,
+    .explore-right .EMTY,
+    .explore-right .reels,
+    .explore-right .saved,
+    .explore-right .tagged,
+    .explore-right .post-section,
+    .explore-right a,
+    .explore-right select,
+    .explore-right .meta {
+        font-size: 1.2em;
+    }
+}

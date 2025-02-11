@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-ixon" href="../images/innnsta.png">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="../Css File/reel.css">
+<body>
+    <script>
+        function explore(){
+            setTimeout(() => {
+                window.open("explore.html","_self")
+            }, 100);
+        }
+        function loginpage(){
+            setTimeout(() => {
+                window.open("loginpage.html","_self")
+            }, 100);
+        }
+        function message() {
+          window.open("message.html","_self")}
+
+          function profilee() {
+            window.open("profile.html","_self")
+        }
+        function threads() {
+            window.open("threads.html")}
+
+            function toggle() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');           
+} 
+function clearsearches() {
+    const searchlist = document.querySelector('.search-history');
+    searchlist.innerHTML = '';
+}
+function toggle2() {
+            const sidebar = document.getElementById('sidebar2');
+            sidebar.classList.toggle('active');           
+} 
+function toggle3() {
+            const sidebar = document.getElementById('sidebar3');
+            sidebar.classList.toggle('active'); 
+            } 
+
+function toggle4() {
+            const sidebar = document.getElementById('sidebar4');
+            sidebar.classList.toggle('active'); 
+            const audio = document.getElementById('audio');
+            audio.play();
+           
+
+            } 
+    </script>
+    <div class="container-explore">
+        <div class="explore-left">
+            <div class="text1">Instagram</div>
+            <div class="home" onclick="loginpage()">
+                <i class="fa-solid fa-house"></i>
+                <div class="text" >Home</div>
+            </div>
+            <div class="search" onclick="toggle()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="text">Search</div>
+            </div>
+            <div class="explore" onclick="explore()">
+                <i class="fa-brands fa-wpexplorer"></i>
+                <div class="text" >Explore</div>
+            </div>
+            <div class="reels">
+                <i class="fa-solid fa-video"></i>
+                <div class="text">Reels</div>
+            </div>
+            <div class="messages" onclick="message()">
+                <i class="fa-solid fa-message"></i>
+                <div class="text">Messages</div>
+
+            </div>
+            <div class="notifications" onclick="toggle2()">
+                <i class="fa-regular fa-heart"></i>
+                <div class="text">Notifications</div>
+            </div>
+            <div class="create"   onclick="toggle3()">
+                <i class="fa-solid fa-plus"></i>
+                <div class="text">Create</div>
+            </div>
+            <div class="profile" onclick="profilee()">
+                <i class="fa-solid fa-user"></i>
+                <div class="text">Profile</div>
+            </div>
+            <div class="threads" onclick="threads()">
+                <i class="fa-brands fa-threads"></i>
+                <div class="text">Threads</div>
+            </div>
+            <div class="more" onclick="toggle4()">
+                <i class="fa-solid fa-bars"></i>
+                <div class="text">More</div>
+            </div>
+            <div class="sidebar" id="sidebar">
+              <div class="close" onclick="clearsearches()"><i class="fa-regular fa-circle-xmark" style="color: #000000;"></i></div>
+              <h2 class="caption">Search</h2>
+               <input type="text" placeholder="Search..." class="search-input">
+               <ul class="search-history">
+                   <li><img src="../images/v1.jpg" alt="">Ankush_rana</li>
+                   <li><img src="../images/v2.jpg" alt="">Rajput_aman</li>
+                   <li><img src="../images/t6.jpg" alt="">Pallavi_singh</li>
+                   <li><img src="../images/v4.jpg" alt="">Vishal_dhiman</li>
+                   <li><img src="../images/t7.jpg" alt="">Rajput_shikha</li>
+                   <li><img src="../images/t1.jpg" alt="">Sahil_rana</li>
+                   <li><img src="../images/t8.jpg" alt="">Prachi_singh</li>
+                   
+               </ul>
+           </div>
+           <div class="sidebar3" id="sidebar3" >  
+            <!-- <h2 class="notify">Notification</h2> -->
+           <ul class="search-history3">
+               <li><p> Post</p> <i class="fa-solid fa-images" style="color: #000000;"></i></li>
+               <li><p> Live video</p> <i class="fa-solid fa-satellite-dish" style="color: #000000;"></i></li>
+               <li><p> Ads</p> <i class="fa-solid fa-arrow-trend-up" style="color: #030303;"></i></li>
+               <li><p> AI Character</p> <i class="fa-solid fa-wand-magic-sparkles" style="color: #000000;"></i></li>
+              
+               
+           </ul>
+       </div>
+       <div class="sidebar4" id="sidebar4">
+        <div class="mini1">
+            <ul class="search-history4">
+                <li><i class="fa-solid fa-gear" style="color: #000000;"></i> <p class="mintext">Setting</p></li>
+                <li><i class="fa-solid fa-chart-line" style="color: #000000;"></i> <p class="mintext">Your activity</p></li>
+                <li><i class="fa-regular fa-bookmark" style="color: #000000;"></i> <p class="mintext">Saved</p></li>
+                <li><i class="fa-brands fa-slack" style="color: #080808;"></i> <p class="mintext">Your appearance</p></li>
+                <li><i class="fa-solid fa-triangle-exclamation" style="color: #000000;"></i> <p class="mintext">Report a problem</p></li>
+            </ul>
+        </div>
+        <div class="mini2">
+            <ul class="search-history5">
+                <li><p class="mintext">Switch accounts</p></li>
+                <li> <p class="mintext">Logout</p></li> 
+            </ul>
+        </div>
+                </div>
+        </div>
+
+
+        <div class="explore-right">
+
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng1.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">punjabi_reel09 •</div>
+                <button>Follow</button>
+                <p class="song">janni • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">110k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">6807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng2.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">smg_vibes •</div>
+                <button>Follow</button>
+                <p class="song">SMG x Real Boss • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">540k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">8797</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng3.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">kartik_09 •</div>
+                <button>Follow</button>
+                <p class="song">official-sandhu • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">10k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">607</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng4.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+              
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng5.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng6.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng7.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng8.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng9.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng10.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng11.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng12.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng13.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng14.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng15.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng16.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng17.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng18.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng19.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+              <audio autoplay src="../images/reelopen.mp3"></audio>
+
+            <div class="containerr">
+                <video autoplay muted controls loop>
+                  <source src="../images/sng20.mp4" type="video/mp4">
+                </video>
+                <div class="dp"><img src="../images/dp3.jpg"></div>
+                <div class="overlay">Rihaan-Records •</div>
+                <button>Follow</button>
+                <p class="song">aujlax09 • Original audio</p>
+                <div class="song-icon"><i class="fa-solid fa-music" style="color: #ffffff;"></i></div>
+                <div class="first-icon"><i class="fa-regular fa-heart"  onclick="this.style.color='red'" ondblclick="this.style.color='black'"></i></div>
+                <p class="like">220k</p>
+                <div class="second-icon"><i class="fa-regular fa-comment"></i></div>
+                <p class="comment">9807</p>
+                <div class="third-icon"><i class="fa-regular fa-paper-plane"></i></div>
+                <p class="share">Share</p>
+                <div class="forth-icon"><i class="fa-regular fa-bookmark"></i></div>
+                <div class="fifth-icon"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="last"><img src="../images/pngegg (7).png"></div>
+              </div>
+        
+          
+              
+        </div>
+</body>
+</html>

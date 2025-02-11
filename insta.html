@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-ixon" href="images/innnsta.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css File/insta.css">
+<body bgcolor="white">
+    <script>
+        function signup(){
+            setTimeout(() => {
+                window.open("html/signuppage.html","_self")
+            }, 100);
+        }
+        function forgot(){
+            setTimeout(() => {
+                window.open("html/forgottenpassword.html","_self")
+            }, 100);
+        }
+        function loginf(){
+            setTimeout(() => {
+                window.open("html/logintofacebook.html","_self")
+            }, 100);
+        }
+        function login(){
+            setTimeout(() => {
+                window.open("html/loginpage.html","_self")
+            }, 100);
+        }
+        function userpss() {
+            const validUsername = "nikhil";
+            const validPassword = "nikhil@123";
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            if (username === validUsername && password === validPassword) {
+                window.open("html/loginpage.html","_self");
+            } else {
+                alert("Invalid username or password");
+                alert("Please try again");
+                window.open("insta.html","_self");
+            }
+            
+        }
+
+
+
+    </script>
+<div class="start">
+    <div class="first">
+            <h1>Instagram</h1>
+            <input type="text" id="username" name="username" placeholder="Phone number, Username, or Email">
+            <input type="password" id="password" name="password" placeholder="Password" >
+            <button onclick="userpss()">Log in</button>
+            <div class="empty"></div>
+            <div class="empty2"></div>
+            <p>OR</p>
+            <div class="non">
+            <a href="#" onclick="loginf()" > Log in with facebook</a>
+            </div>
+            <a href="#"><i class='bx bxl-facebook-square' style='color:#354ad4'></i></a>
+            <p class="p1" onclick="forgot()">Forget Password?</p>
+    </div>
+    <div class="image">
+      <img src="images/phone'.png" class="body">
+      <img src="images/screenshot1.png" class="img1">
+      <img src="images/phone'.png" class="body2">
+      <div class="img2"></div>
+    </div>
+    <div class="second">
+        <p>Don't have an account?</p>
+        <a href="#" onclick="signup()">Sign up</a>
+    </div>
+    <audio autoplay src="../images/login page.mp3"></audio>
+    <div class="play">
+        <p>Get the app.</p>
+        <img src="images/gpay.png">
+        <img src="images/micrpsoft.png">
+    </div>
+</div>
+</body>
+</html>
